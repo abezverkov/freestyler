@@ -1,0 +1,120 @@
+@-moz-document regexp('^(http|https)?://.*/Octopus/.*$') {
+body {
+    color: #C8C8C8!important;
+    background-color: #1E1E1E!important;
+}
+
+table.matrix tbody td {
+    color: #C8C8C8!important;
+    background-color: #1E1E1E!important;
+}
+
+.matrix a {
+    color: #FFF!important;
+}
+
+.deployment-square .version {
+    color: #C8C8C8!important;
+}
+
+.deployment-square .release-date {
+    color: #569CD6!important;
+}
+
+a.deployment-square:focus, a.deployment-square:hover {
+    background-color: #3E3E42!important;
+}
+
+table.matrix tbody th {
+    background-color: #3E3E42!important;
+}
+
+.theme-default .page-header {
+    background-color: #3E3E42!important;
+}
+
+.page-header ul.breadcrumb li, .page-header ul.breadcrumb li a {
+    color: #FFFFFF!important;
+}
+
+.log-line.Info {
+    color: #C8C8C8!important;
+}
+
+.log-entry .log-entry-heading {
+    background-color: #3E3E42!important;
+}
+
+.log-entry>.log-title {
+    color: #C8C8C8!important;
+}
+
+.nav-tabs.nav-tabs-simple>li.active>a {
+    color: #FFF!important;
+}
+
+pre {
+    background-color: #3E3E42!important;
+    color: #57A64A!important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #3E3E42!important;
+}
+
+.octo-list-group-item {
+    background-color: #3E3E42!important;
+}
+
+.octo-list-group-item p {
+    color: #999!important;
+}
+
+.slick-header-column {
+    background-color: #3370A2!important;
+    color: #FFF!important;
+}
+
+.slick-cell.active {
+    background-color: #000!important;
+    color: #FFF!important;
+}
+
+.slick-row {
+    background-color: #3E3E42!important;
+}
+
+.slick-row.odd {
+    background-color: #1E1E1E!important;
+}
+
+div.stack-content {
+    background-color: #000!important;
+}
+
+a.btn {
+    background-color: #000!important;
+}
+
+a.btn.btn-success {
+    background-color: #4CB64C!important;
+}
+
+span.panel-title.ng-binding {
+    color: #fff!important;
+}
+
+div.machine-summary.col-xs-9 h5 {
+    color: #fff!important;
+}
+
+a.btn.ng-scope {
+    background-color: #E9E9E9!important;
+}
+
+a.btn.btn-success.ng-scope {
+    background-color: #4CB64C!important;
+}
+
+
+}
