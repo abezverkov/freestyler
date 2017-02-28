@@ -1,0 +1,156 @@
+@-moz-document url-prefix('http://jira'), url-prefix('https://jira') {
+body {
+    background: #333333!important;
+    color: #ededed!important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.issue-body-content {
+    background: #333333!important;
+}
+
+.ghx-detail-contents {
+    background: #4d4d4d!important;
+    color: #ededed !important;
+}
+
+.ghx-detail-issue {
+    color: #ededed !important;
+}
+
+dt.ghx-detail-term {
+    color: #ededed !important;
+}
+
+.ghx-backlog-container {
+    background: #333!important;
+    color: #ededed !important;
+}
+
+.ghx-backlog-container .ghx-issue-count {
+    color: #ededed !important;
+}
+
+.ghx-issue-compact {
+    background: #4d4d4d!important;
+    color: #ededed !important;
+}
+
+button, button *, input, input *, textarea, textarea *, form.aui option, .toolbar-trigger.js-default-dropdown, .editable-field:hover, .editable-field:hover *, .toolbar-group.pluggable-ops, .toolbar-group.pluggable-ops *, .aui-button {
+    background: #2b4d65 !important;
+    color: #ededed !important;
+}
+
+.jira-dialog-heading, .jira-dialog-heading *, .buttons-container .buttons-container * .jira-dialog-content, .jira-dialog .jira-dialog-content, .jira-dialog .buttons-container {
+    background: #1a1a1a !important;
+    color: #ededed !important;
+}
+
+.sla-tag.sla-tag-breached, code {
+    color: #000000!important;
+}
+
+.ghx-swimlane-header:after, .ghx-heading:after, .ghx-issue .ghx-end, .ghx-swimlane-header:hover, .ghx-heading:hover, .ghx-issue .ghx-end:hover, #ghx-pool > div.ghx-swimlane > ul > li > div:hover .ghx-end, .ghx-issue, .ghx-issue.ghx-selected .ghx-end {
+    background-color: transparent!important;
+    color: #fff!important;
+    box-shadow: none!important;
+}
+
+#ghx-column-header-group.ghx-fixed {
+    background: #333333!important;
+}
+
+.ghx-column.ui-sortable {
+    background: #4d4d4d !important;
+}
+
+#ghx-pool {
+    background: inherit!important;
+}
+
+#ghx-column-headers .ghx-column, #ghx-column-headers .ghx-column * {
+    background: #4d4d4d !important;
+    border: none!important;
+    color: #ededed!important;
+}
+
+#ghx-header {
+    margin: 0!important;
+}
+
+.ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
+    background: #4d4d4d!important;
+}
+
+.ghx-end {
+    background: #333333 !important;
+    color: #ededed !important;
+}
+
+.aui-badge {
+    background: #ededed !important;
+    color: #333333 !important;
+}
+
+.ghx-everything-else {
+    background: #333333 !important;
+}
+
+.wiki-edit-toolbar {
+    background: #333333!important;
+}
+
+#issue-tabs > li {
+    background: #2b4d65 !important;
+    color: #ededed!important;
+}
+
+#issue-tabs > li > a {
+    background: #2b4d65 !important;
+    color: #ededed!important;
+}
+
+#issue-tabs > li.active > strong {
+    background: #325b77 !important;
+    color: #ededed!important;
+}
+
+.ops li, .ops li * {
+    background: #2b4d65 !important;
+    color: #ededed!important;
+}
+
+.aui-list, .aui-list * {
+    color: #ededed !important;
+}
+
+html, body header nav.aui-header, body header nav.aui-header * {
+    background: #000000!important;
+}
+
+.ghx-header *, .issue-header-content, .aui-page-header *, .command-bar, .toggle-title, .saved-search-selector, .saved-search-selector *, .navigator-search {
+    background: #333333 !important;
+    color: #ededed !important;
+}
+
+.aui-sidebar-wrapper {
+    background: #333333 !important;
+}
+
+.aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a {
+    background: #4d4d4d !important;
+}
+
+#footer, #footer * {
+    background: #000000 !important;
+}
+
+.aui-dropdown2.aui-style-default a {
+    color: #ededed!important;
+}
+
+/*# sourceMappingURL=jira.css.map */
+
+
+}
