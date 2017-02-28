@@ -1,0 +1,121 @@
+@-moz-document regexp('^.*teamcity.*') {
+body, table, td, tr, table {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+#bodyWrapper {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+#footer {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+a {
+    color: /*[[TcHeader]]*/!important;
+}
+
+a.buildTypeName {
+    color: #ABC6EB!important;
+}
+
+.actionBar {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.advancedSetting {
+    background-color: /*[[Background_Highlight_1]]*/
+!important;
+}
+
+/*branch label*/
+.branch.hasBranch .branchName {
+    background-color: /*[[Background_Highlight_1]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+/*master label*/
+.branch.default .branchName {
+    background-color: /*[[TcHeader]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.buildTypeContent {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.build .projectHeader {
+    background-color: /*[[Background_Highlight_1]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.expandedChange {
+    background-color: /*[[Background_Highlight_1]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.investigationsLink, .investigationsTicker.investigationsOld, .investigationsTicker.investigationsNew {
+    background-color: red!important;
+    color: white !important;
+}
+
+.notifierSettings {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.projectHeaderTable a, .projectHeaderTable a:hover, .projectHeaderTable a:visited {
+    color: /*[[TcColor]]*/!important;
+}
+
+.runnerFormTable tr.groupingTitle td {
+    background-color: #3370A2!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.settingsBlock {
+    background-color: /*[[TcHeader]]*/	!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.settingsBlockContent {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+.sidebarNote {
+    background-color: /*[[TcSidebar_Note]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+tr.project.tr-depth-0 > td, tr.build_type.tr-depth-1 > td {
+    background-color: /*[[Background_Highlight_1]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+tr.project.tr-depth-1 > td, tr.build_type.tr-depth-2 > td {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+tr.selectedTreeNode > td, tr.selectedTreeNode .expanded_view_container {
+    background-color: /*[[Background_Highlight_1]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+table.agents tr td {
+    background-color: /*[[TcBackground]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+table.parametersTable th {
+    background-color: /*[[TcHeader]]*/!important;
+    color: /*[[TcColor]]*/!important;
+}
+
+}
